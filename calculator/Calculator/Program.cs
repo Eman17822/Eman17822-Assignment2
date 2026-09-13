@@ -13,7 +13,7 @@ class Program
 
             if (!double.TryParse(Console.ReadLine(), out double firstNumber))
             {
-                Console.WriteLine("Invalid input. Please enter a valid number.");
+Console.WriteLine("Invalid input. Please enter a number.");
                 continue;
             }
 
